@@ -1,0 +1,27 @@
+{
+    "name": "richard/notification",
+    "description": "Essa \u0000 uma biblioteca que usa o composer como base para gerar notifica\u0000\u0000es via e-mail",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard de Deus",
+            "email": "richard.deus@mi-agenciaweb.com",
+            "homepage": "https://mi-agenciaweb.com",
+            "role": "Developer Fullstak"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.0.1"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+       "psr-4":{
+           "Notification\\":"_app"
+       } 
+    }
+
+}
