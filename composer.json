@@ -1,5 +1,5 @@
 {
-    "name": "richard/notification",
+    "name": "mi-agenciaweb/notification",
     "description": "Essa \u0000 uma biblioteca que usa o composer como base para gerar notifica\u0000\u0000es via e-mail",
     "type": "library",
     "license": "MIT",
