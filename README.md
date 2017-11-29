@@ -6,7 +6,7 @@ Essa biblioteca tem por função enviar e-mail utilizando a biblioteca phpmailer
 Para fazer a instalação da biblioteca, execute o seguinte comando:
 
 ```sh
-composer require gustavoweb/composer_teste
+composer require mi-agenciaweb/notification
 ```
 
 Para fazer o uso da biblioteca, basta requerir o autoload do composer, invocar a classe e fazer a chamada do método:
